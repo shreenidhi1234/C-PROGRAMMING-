@@ -1,0 +1,61 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+int main()
+
+{
+
+	int year,i,next;	
+  
+  printf("\n enter the year : ");
+
+	scanf("%d",&year);
+
+	if(year%4==0)
+
+	{
+
+	printf("\nleap year");
+
+	next=year+4;
+
+	printf("\nthe next leap year is on");
+
+	printf("%d",next);
+
+	}
+
+	else
+
+	{
+
+	printf("\nNot a leap year");
+
+	printf("\n the next leap year is on ");
+
+	for(i=year;i>=year;i++)
+
+	{
+
+	if(i%4==0)
+
+	{
+
+	next=i;
+
+	printf("\n  %d",next);
+
+	break;
+
+    }
+
+    }
+
+    }
+
+	getch();
+
+	return 0;
+
+	}
