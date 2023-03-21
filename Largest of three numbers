@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+int main()
+
+{
+
+	int X,Y,Z;	printf("\n enter the first number: ");
+
+	scanf("%d",&X);
+
+	printf("\n enter the second number: ");
+
+	scanf("%d",&Y);
+
+	printf("\n enter the third number: ");
+
+	scanf("%d",&Z);
+
+	if(X>Y&&X>Z)
+
+	printf("\n largest number : %d",X);
+
+	else if (Y>X&&Y>Z)
+
+	printf("\n largest number : %d",Y);
+
+	else
+
+	printf("\n largest number : %d",Z);	
+
+	getch();
+
+	return 0;
+
+}
