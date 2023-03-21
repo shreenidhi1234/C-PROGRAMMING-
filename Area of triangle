@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+
+{
+
+	float pi=3.14,area,b,h;	printf("\n enter the breadth of the triangle:");
+
+	scanf("%f",&b);
+
+	printf("\n enter the height of the triangle:");
+
+	scanf("%f",&h);
+
+	area=0.5*b*h;
+
+	printf("area of the triangle:%f",area);
+
+	getch();
+
+}
